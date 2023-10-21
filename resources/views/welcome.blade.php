@@ -17,7 +17,7 @@
         <div class="flex items-center justify-center leading-6 min-h-screen text-gray-900">
             <div class="text-2xl leading-normal mx-auto max-w-xl px-8 pt-8 pb-32 text-red-300">
                 <p class="leading-normal pb-8">
-                    <strong class="font-bold text-2xl text-red-100">Radio Cúbito</strong
+                    <strong class="font-bold text-2xl text-red-100">Radiocúbito</strong
                 >
                     is an indie software shop owned and operated by
                     <a
