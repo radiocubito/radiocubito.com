@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::redirect('/', '/monitor');
+Route::redirect('/', '/deviare');
 
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])

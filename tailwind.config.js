@@ -18,7 +18,6 @@ export default {
             },
             fontFamily: {
                 display: ['Cal Sans', ...defaultTheme.fontFamily.sans],
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
         },
     },
