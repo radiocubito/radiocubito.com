@@ -10,7 +10,7 @@
 
         <title>{{ $title ?? 'Radiocubito' }}</title>
     </head>
-    <body class="antialiased">
+    <body class="text-zinc-950/80 antialiased">
         {{ $slot }}
     </body>
 </html>
