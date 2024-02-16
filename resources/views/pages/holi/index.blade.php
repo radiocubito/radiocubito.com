@@ -2,7 +2,7 @@
     <x-header />
     <x-holi.subnav />
     <main class="mt-6">
-        <x-container class="px-5">
+        <x-container>
             <div class="py-20">
                 <h1 class="mt-4 text-6xl font-extrabold tracking-tight">
                     Enlaces cortos,
@@ -22,13 +22,13 @@
                 </div>
             </div>
         </x-container>
-        <x-container class="px-5">
+        <x-container>
             <div class="py-20">
                 <h2 class="mt-4 max-w-lg text-5xl font-extrabold tracking-tight">Personaliza tus enlaces cortos</h2>
                 <p class="mt-5 max-w-xl text-lg text-zinc-800">Utiliza tus propios dominios para crear URLs breves y que representan a tu marca o proyecto.</p>
             </div>
         </x-container>
-        <x-container class="px-5">
+        <x-container>
             <div class="py-20">
                 <h2 class="mt-4 max-w-lg text-5xl font-extrabold tracking-tight">Previsualización social para tus enlaces</h2>
                 <p class="mt-5 max-w-xl text-lg text-zinc-800">
@@ -36,7 +36,7 @@
                 </p>
             </div>
         </x-container>
-        <x-container class="px-5">
+        <x-container>
             <div class="py-20">
                 <h2 class="mt-4 max-w-lg text-5xl font-extrabold tracking-tight">Plataforma abierta de enlaces cortos</h2>
                 <p class="mt-5 max-w-xl text-lg text-zinc-800">

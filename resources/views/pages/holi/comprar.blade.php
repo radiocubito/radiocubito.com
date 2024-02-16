@@ -2,7 +2,7 @@
     <x-header />
     <x-holi.subnav />
     <main class="mt-6">
-        <x-container class="px-5">
+        <x-container>
             <div class="py-20">
                 <h1 class="mt-4 text-6xl font-extrabold tracking-tight">Comprar Holi</h1>
                 <p class="mt-5 max-w-xl text-lg text-zinc-800">
@@ -11,7 +11,7 @@
                 </p>
             </div>
         </x-container>
-        <x-container class="px-5">
+        <x-container>
             <div class="py-20">
                 <div class="grid gap-8 lg:grid-cols-3">
                     <div class="rounded-lg border border-zinc-200 p-8">

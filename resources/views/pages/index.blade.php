@@ -1,7 +1,7 @@
 <x-layouts.marketing>
     <x-header />
     <main class="mt-6">
-        <x-container class="px-5">
+        <x-container>
             <div class="py-20">
                 <div class="flex text-xs font-bold uppercase tracking-tight">
                     <span class="flex h-6 items-center rounded-xl border border-zinc-200 px-2.5 py-1 text-zinc-700">Holi</span>
