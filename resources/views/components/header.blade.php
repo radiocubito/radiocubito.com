@@ -1,3 +1,9 @@
+@props([
+    'links' => [
+        ['Holi', '/holi', request()->is('holi')],
+    ],
+])
+
 <header class="pt-4">
     <div class="mx-auto w-full max-w-[1112px]">
         <div class="rounded-lg bg-zinc-950">
@@ -9,16 +15,18 @@
                 </a>
                 <div>
                     <nav>
-                        <a
-                            href="/holi"
-                            @class([
-                                'block text-sm font-medium border-b-2 border-t-2',
-                                'text-white/80 border-t-transparent' => request()->is('holi'),
-                                'text-white/60 hover:text-white/80 border-transparent' => ! request()->is('holi'),
-                            ])
-                        >
-                            Holi
-                        </a>
+                        @foreach ($links as [$label, $url, $active])
+                            <a
+                                href="{{ $url }}"
+                                @class([
+                                    'block border-b-2 border-t-2 text-sm font-medium',
+                                    'border-t-transparent text-white/80' => $active,
+                                    'border-transparent text-white/60 hover:text-white/80' => ! $active,
+                                ])
+                            >
+                                {{ $label }}
+                            </a>
+                        @endforeach
                     </nav>
                 </div>
             </div>
