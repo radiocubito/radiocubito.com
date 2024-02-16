@@ -30,12 +30,7 @@
                     <a href="https://holi.radiocubito.com/login" class="flex h-8 items-center rounded-full px-4 font-medium text-zinc-700 hover:bg-zinc-100">
                         Iniciar sesión
                     </a>
-                    <a
-                        href="https://holi.radiocubito.com/register"
-                        class="flex h-8 items-center rounded-full bg-purple-600 px-4 font-medium text-white hover:bg-purple-500"
-                    >
-                        Comprar
-                    </a>
+                    <a href="/holi/comprar" class="flex h-8 items-center rounded-full bg-purple-600 px-4 font-medium text-white hover:bg-purple-500">Comprar</a>
                 </div>
             </div>
         </div>
