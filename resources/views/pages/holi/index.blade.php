@@ -3,7 +3,7 @@
     <x-holi.subnav />
     <main>
         <x-container>
-            <div class="pt-24 pb-16">
+            <div class="pb-16 pt-24">
                 <div class="space-y-16">
                     <div class="space-y-12">
                         <div class="space-y-6">
@@ -25,8 +25,10 @@
                             </a>
                         </div>
                     </div>
-                    <div class="w-[45rem] overflow-hidden rounded-xl border border-zinc-200 bg-slate-50 shadow-xl shadow-zinc-950/20 sm:w-auto lg:w-[67.8125rem]">
-                        <img src="/images/screenshot-1.png" class="w-full">
+                    <div
+                        class="w-[45rem] overflow-hidden rounded-xl border border-zinc-200 bg-slate-50 shadow-xl shadow-zinc-950/20 sm:w-auto lg:w-[67.8125rem]"
+                    >
+                        <img src="/images/screenshot-1.png" class="w-full" />
                     </div>
                 </div>
             </div>
@@ -34,10 +36,14 @@
         <x-container>
             <div class="py-20">
                 <h2 class="mt-4 max-w-lg text-5xl font-extrabold tracking-tight text-zinc-950">Personaliza tus enlaces cortos</h2>
-                <p class="mt-5 max-w-xl text-lg text-zinc-950/80">Utiliza tus propios dominios para crear URLs breves y que representan a tu marca o proyecto.</p>
+                <p class="mt-5 max-w-xl text-lg text-zinc-950/80">
+                    Utiliza tus propios dominios para crear URLs breves y que representan a tu marca o proyecto.
+                </p>
 
-                <div class="mt-10 w-[45rem] overflow-hidden rounded-xl border border-zinc-200 bg-slate-50 shadow-xl shadow-zinc-950/20 sm:w-auto lg:w-[67.8125rem]">
-                    <img src="/images/screenshot-2.png" class="w-full">
+                <div
+                    class="mt-10 w-[45rem] overflow-hidden rounded-xl border border-zinc-200 bg-slate-50 shadow-xl shadow-zinc-950/20 sm:w-auto lg:w-[67.8125rem]"
+                >
+                    <img src="/images/screenshot-2.png" class="w-full" />
                 </div>
             </div>
         </x-container>
@@ -47,8 +53,10 @@
                 <p class="mt-5 max-w-xl text-lg text-zinc-950/80">
                     Asegura un impacto visual en tus redes sociales con vistas previas personalizadas para tus URLs acortadas.
                 </p>
-                <div class="mt-10 w-[45rem] overflow-hidden rounded-xl border border-zinc-200 bg-slate-50 shadow-xl shadow-zinc-950/20 sm:w-auto lg:w-[67.8125rem]">
-                    <img src="/images/screenshot-3.png" class="w-full">
+                <div
+                    class="mt-10 w-[45rem] overflow-hidden rounded-xl border border-zinc-200 bg-slate-50 shadow-xl shadow-zinc-950/20 sm:w-auto lg:w-[67.8125rem]"
+                >
+                    <img src="/images/screenshot-3.png" class="w-full" />
                 </div>
             </div>
         </x-container>
