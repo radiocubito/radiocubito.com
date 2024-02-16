@@ -25,7 +25,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="-mx-5 max-h-[560px] overflow-hidden border-b px-5">
+                    <div class="-mx-5 max-h-[560px] overflow-hidden border-b border-zinc-200 px-5">
                         <img src="/images/screenshot-1.png" class="w-full" />
                     </div>
                 </div>
@@ -40,7 +40,7 @@
                             Utiliza tus propios dominios para crear URLs breves y que representan a tu marca o proyecto.
                         </p>
                     </div>
-                    <div class="-mx-5 max-h-[560px] overflow-hidden border-b px-5">
+                    <div class="-mx-5 max-h-[560px] overflow-hidden border-b border-zinc-200 px-5">
                         <img src="/images/screenshot-2.png" class="w-full" />
                     </div>
                 </div>
@@ -55,7 +55,7 @@
                             Asegura un impacto visual en tus redes sociales con vistas previas personalizadas para tus URLs acortadas.
                         </p>
                     </div>
-                    <div class="-mx-5 max-h-[560px] overflow-hidden border-b px-5">
+                    <div class="-mx-5 max-h-[560px] overflow-hidden border-b border-zinc-200 px-5">
                         <img src="/images/screenshot-3.png" class="w-full" />
                     </div>
                 </div>
