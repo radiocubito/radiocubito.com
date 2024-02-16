@@ -17,10 +17,7 @@
                             </p>
                         </div>
                         <div class="flex">
-                            <a
-                                href="https://holi.radiocubito.com/register"
-                                class="flex h-14 items-center rounded-full bg-zinc-900 px-7 font-medium text-white hover:bg-zinc-800"
-                            >
+                            <a href="/holi/comprar" class="flex h-14 items-center rounded-full bg-zinc-900 px-7 font-medium text-white hover:bg-zinc-800">
                                 Comienza a acortar enlaces →
                             </a>
                         </div>

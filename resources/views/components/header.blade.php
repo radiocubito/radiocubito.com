@@ -5,7 +5,7 @@
 ])
 
 <header class="pt-4">
-    <div class="mx-auto w-full max-w-[1112px]">
+    <div class="mx-auto w-full max-w-[1112px] px-5 xl:px-0">
         <div class="rounded-lg bg-zinc-950">
             <div class="flex h-14 items-center justify-between px-5">
                 <a href="/" class="flex items-center gap-2">
