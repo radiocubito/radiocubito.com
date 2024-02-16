@@ -1,5 +1,6 @@
 <x-layouts.marketing>
     <x-header />
+    <x-holi.subnav />
 
     <section>
         <div class="mx-auto w-full max-w-[1112px]">

@@ -1,37 +1,6 @@
 <x-layouts.marketing>
     <x-header />
-    <section>
-        <div class="mx-auto w-full max-w-[1112px]">
-            <div class="px-5">
-                <div class="flex h-16 items-center">
-                    <div class="w-64 font-extrabold">Holi</div>
-                    <div class="flex flex-1 justify-center gap-1 text-sm">
-                        <a href="/holi" class="flex h-8 items-center rounded-full bg-zinc-100 px-3 font-medium text-zinc-800">Presentación</a>
-                        <a
-                            href="/holi/changelog"
-                            class="flex h-8 items-center rounded-full px-3 font-medium text-zinc-700 hover:bg-zinc-100 hover:text-zinc-800"
-                        >
-                            Actualizaciones
-                        </a>
-                    </div>
-                    <div class="flex w-64 items-center justify-end gap-1 text-sm">
-                        <a
-                            href="https://holi.radiocubito.com/login"
-                            class="flex h-8 items-center rounded-full px-4 font-medium text-zinc-700 hover:bg-zinc-100"
-                        >
-                            Iniciar sesión
-                        </a>
-                        <a
-                            href="https://holi.radiocubito.com/register"
-                            class="flex h-8 items-center rounded-full bg-purple-600 px-4 font-medium text-white hover:bg-purple-500"
-                        >
-                            Comprar
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <x-holi.subnav />
     <main class="mt-6">
         <div class="mx-auto w-full max-w-[1112px]">
             <div class="px-5">
