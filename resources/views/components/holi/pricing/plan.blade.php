@@ -4,11 +4,11 @@
     @class([
         'flex flex-col rounded-3xl px-6 sm:px-8',
         'order-first bg-blue-600 py-8 lg:order-none lg:col-span-3' => $featured,
-        'border lg:py-8 lg:col-span-2' => ! $featured,
+        'border lg:col-span-2 lg:py-8' => ! $featured,
     ])
 >
     <h3 @class([
-        'mt-5 text-lg font-medium',
+        'mt-5 text-lg font-bold',
         'text-white' => $featured,
         'text-zinc-950/80' => ! $featured,
     ])>
@@ -27,6 +27,7 @@
         'text-zinc-950/80' => ! $featured,
     ])>
         {{ $price }}
+        <span class="text-base font-medium">MXN</span>
     </p>
     <ul
         role="list"

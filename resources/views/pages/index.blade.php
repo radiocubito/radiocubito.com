@@ -17,9 +17,7 @@
                 </h1>
                 <p class="mt-6 max-w-lg text-lg">Transforma rápidamente URLs largas en cortas para distribuírlas más fácilmente en redes sociales.</p>
                 <div class="flex pt-12">
-                    <x-button href="/holi" color="green">
-                        Más información →
-                    </x-button>
+                    <x-button href="/holi" color="green">Más información →</x-button>
                 </div>
             </div>
         </x-container>

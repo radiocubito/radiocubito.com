@@ -1,7 +1,7 @@
 <x-layouts.marketing>
     <x-header />
     <x-holi.subnav />
-    <main class="mt-6">
+    <main>
         <x-holi.pricing.hero />
     </main>
     <x-footer />
