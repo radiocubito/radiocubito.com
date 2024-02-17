@@ -1,5 +1,5 @@
 <section>
-    <div class="py-24">
+    <div class="py-16 lg:py-24">
         <x-container>
             <div class="max-w-3xl">
                 <h1 class="text-5xl font-extrabold tracking-tight text-zinc-950 sm:text-5xl lg:text-6xl">Tarifas de Holi</h1>
@@ -11,7 +11,7 @@
             </div>
         </x-container>
     </div>
-    <div class="pb-24">
+    <div class="pb-16 lg:pb-24">
         <x-container>
             <div class="grid grid-cols-1 gap-y-10 lg:grid-cols-5 xl:gap-x-8">
                 <x-holi.pricing.plan
