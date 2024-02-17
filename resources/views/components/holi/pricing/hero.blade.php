@@ -18,7 +18,7 @@
                     name="Holi"
                     price="$499"
                     description="Ideal para freelancers, startups o equipos pequeños. "
-                    href="https://holi.radiocubito.com"
+                    href="https://holi.radiocubito.com/register"
                     :features="
                         [
                             'Enlaces ilimitados',
@@ -34,7 +34,7 @@
                     name="Holi Pro"
                     price="$799"
                     description="Perfecto para negocios en crecimiento, grupos más grandes y empresas que quieren lo mejor."
-                    href="https://holi.radiocubito.com"
+                    href="https://holi.radiocubito.com/register"
                     :features="
                         [
                             'Enlaces ilimitados',
