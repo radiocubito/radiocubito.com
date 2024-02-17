@@ -17,9 +17,7 @@
                             </p>
                         </div>
                         <div class="flex">
-                            <a href="/holi/comprar" class="flex h-14 items-center rounded-full bg-zinc-900 px-7 font-medium text-white hover:bg-zinc-800">
-                                Comienza a acortar enlaces →
-                            </a>
+                            <x-button href="/holi/pricing" color="green">Comienza a acortar enlaces →</x-button>
                         </div>
                     </div>
                     <div class="-mx-5 max-h-[560px] overflow-hidden border-b border-zinc-200 px-5">
@@ -76,7 +74,7 @@
                         <h2 class="mt-3 text-4xl font-extrabold tracking-tight text-zinc-950">Ver precios y opciones.</h2>
                         <p class="mt-5 text-zinc-950/60">Comienza a acortar tus enlaces largos ahora.</p>
                         <div class="mt-12 flex">
-                            <a href="/holi/comprar" class="flex h-14 items-center rounded-full bg-zinc-900 px-7 font-medium text-white hover:bg-zinc-800">
+                            <a href="/holi/pricing" class="flex h-14 items-center rounded-full bg-zinc-900 px-7 font-medium text-white hover:bg-zinc-800">
                                 Ver tarifas y comprar Holi
                             </a>
                         </div>
