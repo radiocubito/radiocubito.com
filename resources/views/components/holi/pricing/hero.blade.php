@@ -2,8 +2,8 @@
     <div class="py-24">
         <x-container>
             <div class="max-w-3xl">
-                <h1 class="text-4xl font-bold tracking-tight text-zinc-950 sm:text-5xl">Tarifas de Holi</h1>
-                <p class="mt-6 text-lg text-zinc-950/60">
+                <h1 class="text-5xl font-extrabold tracking-tight text-zinc-950 sm:text-5xl lg:text-6xl">Tarifas de Holi</h1>
+                <p class="mt-6 text-lg text-zinc-950/80 lg:text-xl">
                     Dos planes sencillos, cada uno con una
                     <strong class="font-bold text-zinc-950">prueba gratuita de 30 días</strong>
                     . No se requiere tarjeta de crédito.
@@ -13,7 +13,7 @@
     </div>
     <div class="pb-24">
         <x-container>
-            <div class="-mx-4 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-5 xl:mx-0 xl:gap-x-8">
+            <div class="grid grid-cols-1 gap-y-10 lg:grid-cols-5 xl:gap-x-8">
                 <x-holi.pricing.plan
                     name="Holi"
                     price="$499"

@@ -2,15 +2,15 @@
 
 <section
     @class([
-        'flex flex-col rounded-3xl px-6 sm:px-8',
-        'order-first bg-blue-600 py-8 lg:order-none lg:col-span-3' => $featured,
-        'border lg:col-span-2 lg:py-8' => ! $featured,
+        'flex flex-col rounded-3xl px-6 py-8 sm:px-8',
+        'order-first bg-blue-600 lg:order-none lg:col-span-3' => $featured,
+        'border lg:col-span-2' => ! $featured,
     ])
 >
     <h3 @class([
         'mt-5 text-lg font-bold',
         'text-white' => $featured,
-        'text-zinc-950/80' => ! $featured,
+        'text-zinc-950' => ! $featured,
     ])>
         {{ $name }}
     </h3>
@@ -21,11 +21,13 @@
     ])>
         {{ $description }}
     </p>
-    <p @class([
-        'order-first text-5xl tracking-tight',
-        'text-white' => $featured,
-        'text-zinc-950/80' => ! $featured,
-    ])>
+    <p
+        @class([
+            'order-first text-4xl font-extrabold tracking-tight lg:text-5xl',
+            'text-white' => $featured,
+            'text-zinc-950' => ! $featured,
+        ])
+    >
         {{ $price }}
         <span class="text-base font-medium">MXN</span>
     </p>

@@ -13,8 +13,8 @@
             <div>
                 <a href="/holi" class="font-extrabold hover:underline">Holi</a>
             </div>
-            <div class="flex items-center gap-7 overflow-hidden h-full">
-                <div class="gap-5 flex overflow-scroll items-center h-full">
+            <div class="flex h-full items-center gap-7 overflow-hidden">
+                <div class="flex h-full items-center gap-5 overflow-scroll">
                     @foreach ($links as [$label, $url, $active])
                         <x-holi.header.sub-nav-link :href="$url" :$active>{{ $label }}</x-holi.header.sub-nav-link>
                     @endforeach
