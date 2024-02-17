@@ -11,7 +11,7 @@
     <x-container>
         <div class="flex h-16 items-center justify-between gap-7">
             <div>
-                <a href="/holi" class="font-extrabold hover:underline">Holi</a>
+                <a href="/holi" class="font-extrabold hover:underline text-zinc-950">Holi</a>
             </div>
             <div class="flex h-full items-center gap-7 overflow-hidden">
                 <div class="flex h-full items-center gap-5 overflow-scroll">
