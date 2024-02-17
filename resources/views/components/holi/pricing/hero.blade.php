@@ -2,7 +2,7 @@
     <div class="py-16 lg:py-24">
         <x-container>
             <div class="max-w-3xl">
-                <h1 class="text-5xl font-extrabold tracking-tight text-zinc-950 sm:text-5xl lg:text-6xl">Tarifas de Holi</h1>
+                <h1 class="text-5xl font-extrabold tracking-tight text-zinc-950 lg:text-6xl">Tarifas de Holi</h1>
                 <p class="mt-6 text-lg text-zinc-950/80 lg:text-xl">
                     Dos planes sencillos, cada uno con una
                     <strong class="font-bold text-zinc-950">prueba gratuita de 30 días</strong>
