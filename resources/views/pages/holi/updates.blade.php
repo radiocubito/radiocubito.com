@@ -12,10 +12,9 @@ render(function (View $view) {
 ?>
 
 <x-layouts.marketing>
-    <x-header />
-    <x-holi.subnav />
+    <x-holi.header />
     <main class="mt-6">
-        <div class="mx-auto w-full max-w-[1112px] px-5">
+        <x-container>
             <div class="pb-24 pt-12">
                 <h1 class="text-[44px] font-extrabold tracking-tight">Changelog</h1>
 
@@ -33,7 +32,7 @@ render(function (View $view) {
                     @endforeach
                 </div>
             </div>
-        </div>
+        </x-container>
     </main>
 
     <x-footer />

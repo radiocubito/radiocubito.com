@@ -1,6 +1,5 @@
 <x-layouts.marketing>
-    <x-header />
-    <x-holi.subnav />
+    <x-holi.header />
     <main>
         <x-holi.pricing.hero />
     </main>
