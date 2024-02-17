@@ -38,7 +38,7 @@
     >
         @foreach ($features as $feature)
             <li class="flex">
-                <x-pricing.check-icon
+                <x-holi.pricing.check-icon
                     @class([
                         'text-white' => $featured,
                         'text-zinc-950/60' => ! $featured,

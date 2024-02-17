@@ -10,7 +10,7 @@
             <p class="mt-4 text-lg text-zinc-700">Dos planes sencillos, cada uno con una prueba gratuita de 30 días. No se requiere tarjeta de crédito.</p>
         </div>
         <div class="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-5 xl:mx-0 xl:gap-x-8">
-            <x-pricing.plan
+            <x-holi.pricing.plan
                 name="Holi"
                 price="$490"
                 description="Ideal para freelancers, startups o equipos pequeños. "
@@ -25,7 +25,7 @@
                     ]
                 "
             />
-            <x-pricing.plan
+            <x-holi.pricing.plan
                 featured
                 name="Holi Pro"
                 price="$790"
