@@ -53,6 +53,8 @@
                 </div>
             </div>
         </x-container>
+
+        <x-pricing />
     </main>
 
     <x-footer />

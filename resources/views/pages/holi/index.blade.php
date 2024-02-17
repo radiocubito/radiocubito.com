@@ -17,9 +17,9 @@
                             </p>
                         </div>
                         <div class="flex">
-                            <a href="/holi/comprar" class="flex h-14 items-center rounded-full bg-zinc-900 px-7 font-medium text-white hover:bg-zinc-800">
+                            <x-button href="/holi/comprar" color="green">
                                 Comienza a acortar enlaces →
-                            </a>
+                            </x-button>
                         </div>
                     </div>
                     <div class="-mx-5 max-h-[560px] overflow-hidden border-b border-zinc-200 px-5">
