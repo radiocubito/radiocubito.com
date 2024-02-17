@@ -3,8 +3,8 @@
 <section
     @class([
         'flex flex-col rounded-3xl px-6 sm:px-8',
-        'order-first bg-blue-600 py-8 lg:order-none lg:col-span-2' => $featured,
-        'border lg:py-8' => ! $featured,
+        'order-first bg-blue-600 py-8 lg:order-none lg:col-span-3' => $featured,
+        'border lg:py-8 lg:col-span-2' => ! $featured,
     ])
 >
     <h3 @class([
