@@ -25,7 +25,7 @@
                     </a>
                 @endforeach
             </div>
-            <div class="flex items-center justify-end gap-1 text-sm xl:w-72">
+            <div class="flex items-center justify-end gap-1 text-sm xl:w-64">
                 <a href="http://github.com/oliverservin/holiing" class="flex h-8 items-center text-zinc-700">
                     <x-icon.github class="size-4" />
                 </a>
