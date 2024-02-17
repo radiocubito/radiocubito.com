@@ -25,7 +25,10 @@
                     </a>
                 @endforeach
             </div>
-            <div class="flex items-center justify-end gap-1 text-sm xl:w-64">
+            <div class="flex items-center justify-end gap-1 text-sm xl:w-72">
+                <a href="http://github.com/oliverservin/holiing" class="flex h-8 items-center text-zinc-700">
+                    <x-icon.github class="size-4" />
+                </a>
                 <a href="https://holi.radiocubito.com/login" class="flex h-8 items-center rounded-full px-4 font-medium text-zinc-700 hover:bg-zinc-100">
                     Iniciar sesión
                 </a>
