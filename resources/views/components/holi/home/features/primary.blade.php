@@ -4,7 +4,7 @@
     <x-container>
         <div class="max-w-2xl">
             <div class="flex size-14 items-center justify-center rounded-full border-8 border-green-50 bg-green-100">
-                <x-dynamic-component :component="$icon" class="size-6" />
+                <x-dynamic-component :component="$icon" class="size-6 text-green-600" />
             </div>
             <h2 class="mt-6 text-4xl font-extrabold tracking-tight text-zinc-950">{{ $title }}</h2>
             <p class="mt-5 text-lg text-zinc-950/80">{{ $description }}</p>
