@@ -25,7 +25,7 @@
 />
 
 <x-holi.home.features.primary
-    title="Previsualización social para tus enlaces"
+    title="Previsualización social para tus enlaces."
     description="Asegura un impacto visual en tus redes sociales con vistas previas personalizadas para tus URLs acortadas."
     image="/images/screenshot-3.png"
     icon="holi.home.features.preview-icon"
