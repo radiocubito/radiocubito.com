@@ -1,5 +1,5 @@
-<div class="pb-12 pt-12 lg:pt-24">
+<div class="pb-12 pt-12">
     <x-container>
-        <h1 class="hyphens-auto text-5xl font-extrabold tracking-tight text-zinc-950 lg:text-6xl">Actualizaciones</h1>
+        <h1 class="hyphens-auto text-5xl font-extrabold tracking-tight text-zinc-950">Actualizaciones</h1>
     </x-container>
 </div>

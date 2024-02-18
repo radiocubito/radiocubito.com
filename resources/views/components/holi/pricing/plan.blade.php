@@ -23,7 +23,7 @@
     </p>
     <p
         @class([
-            'order-first text-4xl font-extrabold tracking-tight lg:text-5xl',
+            'order-first text-4xl font-extrabold tracking-tight',
             'text-white' => $featured,
             'text-zinc-950' => ! $featured,
         ])

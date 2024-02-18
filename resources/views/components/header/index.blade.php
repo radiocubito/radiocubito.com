@@ -6,7 +6,7 @@
 
 <header class="pt-4">
     <x-container>
-        <div class="rounded-lg bg-zinc-900 -mx-1 lg:-mx-5">
+        <div class="-mx-3 rounded-lg bg-zinc-900 sm:-mx-5">
             <div class="flex h-14 items-center justify-between px-5">
                 <a href="/" class="flex items-center gap-2">
                     <x-logo class="size-6 text-white" />
