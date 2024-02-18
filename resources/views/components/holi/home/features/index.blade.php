@@ -5,6 +5,12 @@
     icon="holi.home.features.analytics-icon"
 />
 
+<x-holi.home.features.secondary
+    title="Navegación natural en Español"
+    description="Interactúa con una plataforma en tu lengua materna, creando una experiencia de usuario fluida y familiar."
+    icon="holi.home.features.message-icon"
+/>
+
 <x-holi.home.features.primary
     title="Personaliza tus enlaces cortos."
     description="Utiliza tus propios dominios para crear URLs breves y que representan a tu marca o proyecto."
