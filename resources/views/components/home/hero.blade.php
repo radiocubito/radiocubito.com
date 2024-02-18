@@ -6,7 +6,10 @@
                 <h1 class="mt-3 text-5xl font-extrabold tracking-tight text-zinc-950">Enlaces cortos, al instante.</h1>
                 <p class="mt-6 text-lg text-zinc-950/80">Transforma rápidamente URLs largas en cortas para distribuírlas más fácilmente en redes sociales.</p>
                 <div class="mt-12">
-                    <x-button href="/holi" color="green">Más información →</x-button>
+                    <x-button href="/holi" color="green">
+                        Más información
+                        <x-icon.arrow-right class="ml-2 size-4" />
+                    </x-button>
                 </div>
             </div>
         </x-container>
