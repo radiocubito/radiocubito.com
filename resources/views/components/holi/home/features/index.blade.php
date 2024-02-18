@@ -1,4 +1,11 @@
 <x-holi.home.features.primary
+    title="Analítica detallada de clics."
+    description="Rastrea el rendimiento por día, país, navegador y dispositivo para monitorizar el alcance de tus enlaces."
+    image="/images/screenshot-4.png"
+    icon="holi.home.features.analytics-icon"
+/>
+
+<x-holi.home.features.primary
     title="Personaliza tus enlaces cortos."
     description="Utiliza tus propios dominios para crear URLs breves y que representan a tu marca o proyecto."
     image="/images/screenshot-2.png"
